@@ -27,8 +27,8 @@ namespace ImageClassification.Train
             var tagsTsv = Path.Combine(assetsPath, "inputs", "data", "tags.tsv");
 
             string imagesDownloadFolderPath = Path.Combine(assetsPath, "inputs", "images");
-            string finalImagesFolderName = DownloadImageSet(imagesDownloadFolderPath);
-            var fullImagesetFolderPath = Path.Combine(imagesDownloadFolderPath, finalImagesFolderName);
+            //string finalImagesFolderName = DownloadImageSet(imagesDownloadFolderPath);
+            var fullImagesetFolderPath = Path.Combine(imagesDownloadFolderPath, imagesDownloadFolderPath);
             Console.WriteLine($"Images folder: {fullImagesetFolderPath}");
 
             // Single full dataset
