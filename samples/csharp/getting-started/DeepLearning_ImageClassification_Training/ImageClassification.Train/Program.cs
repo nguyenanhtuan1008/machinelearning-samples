@@ -25,8 +25,8 @@ namespace ImageClassification.Train
             string imagesDownloadFolderPath = Path.Combine(assetsPath, "inputs", "images");
 
             // 1. Download the image set and unzip
-            string finalImagesFolderName = DownloadImageSet(imagesDownloadFolderPath);
-            string fullImagesetFolderPath = Path.Combine(imagesDownloadFolderPath, finalImagesFolderName);
+            //string finalImagesFolderName = DownloadImageSet(imagesDownloadFolderPath);
+            string fullImagesetFolderPath = Path.Combine(imagesDownloadFolderPath, imagesDownloadFolderPath); // For dataset already dowloaded
 
             var mlContext = new MLContext(seed: 1);
 
