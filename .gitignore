@@ -333,3 +333,4 @@ ASALocalRun/
 # macOS
 .DS_Store
 /samples/csharp/getting-started/DeepLearning_ImageClassification_Training/ImageClassification.Predict/assets/inputs/images-for-predictions
+/samples/csharp/getting-started/DeepLearning_TensorFlowEstimator/ImageClassification.Train/assets
